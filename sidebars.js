@@ -481,7 +481,13 @@ const sidebars = {
         'HighQuality/aitimart/aitimart-loan',
       ],
     },
-  ]
+  ],
+
+  //在线视频
+  OnlineVideo: [
+    'OnlineVideo/OnlineVideo-intro',
+
+  ],
 }
 
 module.exports = sidebars

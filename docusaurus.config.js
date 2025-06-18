@@ -3,7 +3,7 @@ const path = require('path')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   onBrokenLinks: 'ignore',
-  title: '鲸落',
+  title: 'XB',
   titleDelimiter: '-',
   url: 'http://xiaojunnan.cn',
   baseUrl: '/',
@@ -48,44 +48,14 @@ const config = {
       hideOnScroll: true,
       items: [
         {
-          label: '学习',
+          label: '首页',
           position: 'right',
-          items: [
-            {
-              label: '笔记',
-              to: 'docs/skill',
-            },
-            {
-              label: '思考',
-              to: 'docs/thing',
-            },
-            {
-              label: '使用',
-              to: 'docs/use',
-            },
-            {
-              label: '系列',
-              to: 'docs/series',
-            },
-          ],
+          to: '/',
         },
         {
-          label: '生活',
+          label: '在线视频',
           position: 'right',
-          items: [
-            {
-              label: '爱好',
-              to: 'docs/hobby',
-            },
-            {
-              label: '总结',
-              to: 'docs/summarize',
-            },
-            // {
-            //   label: 'vercel',
-            //   to: 'https://vercel.com/',
-            // },
-          ],
+          to: 'docs/OnlineVideo',
         },
         {
           label: '投资项目',
